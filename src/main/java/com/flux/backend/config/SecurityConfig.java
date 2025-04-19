@@ -1,7 +1,7 @@
-package com.flux.config;
+package com.flux.backend.config;
 
-import com.flux.security.JwtAuthenticationEntryPoint;
-import com.flux.security.JwtAuthenticationFilter;
+import com.flux.backend.security.JwtAuthenticationEntryPoint;
+import com.flux.backend.security.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
